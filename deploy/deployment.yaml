@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: srinivasraop03/gitops-service-a:sha-6b31262
+          image: srinivasraop03/gitops-service-a:sha-65172a8
           ports:
             - containerPort: 8080
 ---
