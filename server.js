@@ -4,7 +4,7 @@ const port = 8080;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello from Service A! Version: v1\n');
+  res.end('Hello Welcome to Service A! Version: v1\n');
 });
 
 server.listen(port, () => {
